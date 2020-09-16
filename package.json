@@ -1,0 +1,35 @@
+{
+  "name": "curry-function",
+  "version": "1.0.0",
+  "description": "Curry-function. Similar to 'curry', but does not use dangerous eval. Lightweight and minimal. Passed a function f, returns the curried variant of f. Lightweight and minimal. Handles arbitrary number of arguments and supports overloading.",
+  "main": "curry.js",
+  "scripts": {
+    "test": "npx ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niallpaterson/curry-function.git"
+  },
+  "keywords": [
+    "curry",
+    "curried",
+    "function",
+    "overloading",
+    "functional",
+    "programming",
+    "functional",
+    "function"
+  ],
+  "author": "NiallJP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niallpaterson/curry-function/issues"
+  },
+  "homepage": "https://github.com/niallpaterson/curry-function#readme",
+  "devDependencies": {
+    "ava": "^3.12.1"
+  },
+  "dependencies": {
+    "kind-of": "^6.0.3"
+  }
+}
