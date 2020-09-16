@@ -66,14 +66,6 @@ curriedSum(1)(2)(3);
 sum(1, 2, 3)
 ````
 
-
-````JavaScript
-curry({}); // Type error, expected function but received object
-curry([]); // Type error, expected function but received array
-curry(); // Type error, expected function but received undefined
-etc...
-````
-
 ## Test
 
 Tested with [AVA](https://www.npmjs.com/package/ava).
@@ -90,9 +82,9 @@ npx ava
 
 ## Currying
 
-Given a function _f_ with _n_ parameters, the _curried_ variant of _f_ returns _n_ functions, each taking exactly one of _f_'s parameters, one parameter by one.
+Given a function f with n parameters, the curried variant of f returns n functions, each taking exactly one of f's parameters, one parameter by one. For an overview on the uses of currying, see [this article](https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983).
 
-For example:
+To illustrate:
 
 ````JavaScript
 // not curried expression
@@ -119,5 +111,3 @@ const notCurried = (x, y, z) => x + y + z;
 
 const curried = (x) => (y) => (z) => x + y + z;
 ````
-
-For an overview on the uses of currying, see [this article](https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983).

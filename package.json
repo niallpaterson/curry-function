@@ -1,7 +1,7 @@
 {
   "name": "curry-function",
   "version": "1.0.0",
-  "description": "Curry-function. Similar to 'curry', but does not use dangerous eval. Lightweight and minimal. Passed a function f, returns the curried variant of f. Lightweight and minimal. Handles arbitrary number of arguments and supports overloading.",
+  "description": "Curry-function. Similar to 'curry', but does not use dangerous eval. Lightweight and minimal. Passed a function f, returns the curried variant of f. Handles arbitrary number of arguments and supports overloading.",
   "main": "curry.js",
   "scripts": {
     "test": "npx ava"
