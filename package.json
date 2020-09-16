@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/niallpaterson/curry-function.git"
   },
+  "files": [
+    "curry.js"
+   ],
   "keywords": [
     "curry",
     "curried",
