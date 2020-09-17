@@ -1,6 +1,6 @@
 {
   "name": "curry-function",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Curry-function. Similar to 'curry', but does not use dangerous eval. Lightweight and minimal. Passed a function f, returns the curried variant of f. Handles arbitrary number of arguments and supports overloading.",
   "main": "curry.js",
   "scripts": {
