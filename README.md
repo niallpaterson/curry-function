@@ -2,7 +2,7 @@
 
 Curry-function. Passed a function f, returns a curried variant of f. Lightweight and minimal. Handles arbitrary number of arguments and supports overloading. Similar to [curry](https://www.npmjs.com/package/curry), but does not use [dangerous eval](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval#Never_use_eval!).
 
-## Setup
+## Usage
 
 Install locally with npm:
 
@@ -14,21 +14,31 @@ Import:
 
 ````JavaScript
 const curry = require('curry-function');
+````
 
-// or
+or
 
+````JavaScript
 import curry from 'curry-function';
 ````
 
 ## API
 
-Syntax:
+### Syntax
 
 ````JavaScript
-curry(f); // retuns curried variant of 'f'
+curry(func);
 ````
 
-First argument is required and must be of type function. Otherwise a TypeError is thrown.
+### Parameters
+
+`func`
+
+Required. The function to be curried.
+
+### Return
+
+A new function that is the curried variant of the argument function.
 
 Example:
 
@@ -82,7 +92,7 @@ npx ava
 
 ## Currying
 
-Given a function f with n parameters, the curried variant of f returns n functions, each taking exactly one of f's parameters, one parameter by one. For an overview on the uses of currying, see [this article](https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983).
+Given a function f with n parameters, curry returns n functions, each taking exactly one of f's parameters, one parameter by one, and returns the next function. The final function executes the f's code. For an overview on the uses of currying see [this article](https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983).
 
 To illustrate:
 
