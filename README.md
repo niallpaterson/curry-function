@@ -38,7 +38,7 @@ Required. The function to be curried.
 
 ### Return
 
-A new function that is the curried variant of the argument function.
+A new function. The curried variant of the argument function.
 
 Example:
 
@@ -92,7 +92,7 @@ npx ava
 
 ## Currying
 
-Given a function f with n parameters, curry returns n functions, each taking exactly one of f's parameters, one parameter by one, and returns the next function. The final function executes the f's code. For an overview on the uses of currying see [this article](https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983).
+Given a function f with n parameters, curry returns n functions, each taking exactly one of f's parameters, one parameter by one. The final function executes f's code. For an overview on the uses of currying see [this article](https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983).
 
 To illustrate:
 
