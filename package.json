@@ -16,12 +16,13 @@
   "keywords": [
     "curry",
     "curried",
+    "curry function",
+    "curried function",
     "function",
+    "overload",
+    "overloaded",
     "overloading",
-    "functional",
-    "programming",
-    "functional",
-    "function"
+    "functional programming",
   ],
   "author": "NiallJP",
   "license": "ISC",
